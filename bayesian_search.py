@@ -60,8 +60,8 @@ def fit_with(dropout1_rate, dropout2_rate, learning_rate, train_data_loader, val
 if __name__== "__main__":
 	mini_batch_size = 100
 		
-	train_data_path = 'train_32x32.mat'
-	test_data_path = 'test_32x32.mat'
+	train_data_path = 'data/train_32x32.mat'
+	test_data_path = 'data/test_32x32.mat'
 	trainX, trainY, valX, valY, testX, testY = load_dataset(train_data_path, test_data_path)
 
 	#converting to grayscale images

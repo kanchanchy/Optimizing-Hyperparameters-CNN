@@ -23,8 +23,8 @@ from utils import *
 
 if __name__== "__main__":
 
-	train_data_path = 'train_32x32.mat'
-	test_data_path = 'test_32x32.mat'
+	train_data_path = 'data/train_32x32.mat'
+	test_data_path = 'data/test_32x32.mat'
 	trainX, trainY, valX, valY, testX, testY = load_dataset(train_data_path, test_data_path)
 
 	#converting to grayscale images
