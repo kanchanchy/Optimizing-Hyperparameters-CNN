@@ -6,7 +6,7 @@ The implementation is done using pytorch framework. grid_search.py file implemen
 
 The architecture of the convolutional neural network (CNN) that is used in this repository is shown below:
 
-![CNN Architecture](https://github.com/kanchanchy/Optimizing-Hyperparameters-CNN/blob/master/figures/cnn_model.png)
+![CNN Architecture](https://github.com/kanchanchy/Optimizing-Hyperparameters-CNN/blob/master/figures/cnn_architecture.png)
 
 # How to run:
 Download SVHN dataset (both train and test) from http://ufldl.stanford.edu/housenumbers/ and place both dataset inside data/ directory. After that run grid_search.py, bayesian_search.py, and train_test_cnn.py separately. Note that running grid_search.py might take a very long time because it trains the model for all hyper-parameter combinations.
